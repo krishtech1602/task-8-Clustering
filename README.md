@@ -1,36 +1,37 @@
-K-Means Clustering
- Objective
+#  K-Means Clustering  
 
-Perform unsupervised learning using K-Means Clustering on a dataset and evaluate the results.
+##  Objective  
+Perform unsupervised learning using **K-Means Clustering** to group data points into clusters and evaluate the quality of clustering.  
 
-Tools & Libraries
+##  Tools & Libraries  
+- Python  
+- Pandas  
+- Matplotlib / Seaborn  
+- Scikit-learn  
 
-Python
+##  Steps Followed  
+1. **Data Loading & Preprocessing**  
+   - Loaded dataset (e.g., Mall Customer Segmentation).  
+   - Selected relevant numerical features for clustering.  
 
-Pandas
+2. **Elbow Method**  
+   - Plotted inertia values for different `k` values.  
+   - Identified the optimal number of clusters.  
 
-Matplotlib
+3. **K-Means Training**  
+   - Fitted K-Means with the chosen cluster count.  
+   - Assigned cluster labels to each data point.  
 
-Scikit-learn
+4. **Evaluation**  
+   - Calculated **Silhouette Score** to measure clustering quality.  
 
-Steps
+5. **Visualization**  
+   - Plotted clusters in 2D with color-coding.  
+   - Marked cluster centroids for better interpretation.  
 
-Loaded dataset and selected numerical features.
+##  Learning Outcomes  
+- Gained hands-on experience with **unsupervised learning**.  
+- Learned how to determine the **optimal number of clusters** using the Elbow Method.  
+- Understood how to evaluate clustering using **Silhouette Score**.  
+- Practiced **data visualization** for cluster interpretation.  
 
-Applied Elbow Method to find the optimal number of clusters.
-
-Trained K-Means model with chosen K.
-
-Assigned cluster labels to data.
-
-Evaluated using Silhouette Score.
-
-Visualized clusters in 2D with color-coding.
-
-Learning Outcomes
-
-Understanding of clustering and unsupervised learning.
-
-How to choose optimal clusters using Elbow Method.
-
-How to evaluate clustering with Silhouette Score.
